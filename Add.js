@@ -15,7 +15,7 @@ const Add = ({navigation}) => {
             <Button title='Submit'
                     onPress={()=>{
                         let item = {card_name:name, card_pic:pic};
-                        fetch("https://onlinecardappwebservice-owag.onrender.com/addcard",
+                        fetch("https://onlinecardappwebservice-vxmc.onrender.com/addcard",
                             {
                                 method:"POST",
                                 headers:{"Content-Type":"application/json"},
